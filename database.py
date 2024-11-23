@@ -82,20 +82,34 @@ def create_tables():
 
 def create_default_admin():
     """Create a default admin user."""
+    # Create a database connection
     conn = create_connection()
     if conn is None:
+        print("Failed to connect to the database.")
         return
-    cursor = conn.cursor()
 
+    # Prepare the default admin credentials
     username = "admin"
     password = "adminpassword"
-    hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
-    cursor.execute('''
-        INSERT OR IGNORE INTO users (username, password, is_admin)
-        VALUES (?, ?, 1)
-    ''', (username, hashed_password))
-    conn.commit()
-    conn.close()
+
+    # Hash the password
+    if isinstance(password, str):
+        password = password.encode('utf-8')  # Convert password to bytes if it's a string
+    hashed_password = bcrypt.hashpw(password, bcrypt.gensalt())  # Hash the password
+
+    # Insert the admin user into the database
+    try:
+        cursor = conn.cursor()
+        cursor.execute('''
+            INSERT OR IGNORE INTO users (username, password, is_admin)
+            VALUES (?, ?, 1)
+        ''', (username, hashed_password))
+        conn.commit()
+        print("Default admin created successfully.")
+    except Exception as e:
+        print(f"Error creating default admin: {e}")
+    finally:
+        conn.close()
 
 
 def initialize_inventory():
