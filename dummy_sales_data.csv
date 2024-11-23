@@ -1,0 +1,378 @@
+username,coffee_type,size,quantity,addons,price,cost,timestamp
+customer3,Espresso,Medium,1,"Extra Sugar, Whipped Cream",6.0,2.0,2024-11-22 09:35:11.405738
+customer6,Latte,Medium,3,Extra Milk,24.0,10.5,2024-11-22 09:35:11.405738
+customer9,Caramel Macchiato,Medium,3,"Extra Sugar, Extra Milk",27.0,12.0,2024-11-22 09:35:11.405738
+customer2,Cappuccino,Small,1,"Whipped Cream, Extra Sugar, Extra Milk",7.5,2.5,2024-11-22 09:35:11.405738
+customer9,Americano,Large,2,"Extra Milk, Extra Sugar, Whipped Cream",17.0,6.0,2024-11-22 09:35:11.405738
+customer9,Caramel Macchiato,Small,1,Whipped Cream,7.5,3.5,2024-11-22 09:35:11.405738
+customer4,Cappuccino,Large,1,Extra Sugar,8.5,3.5,2024-11-22 09:35:11.405738
+customer3,Latte,Large,2,,17.0,8.0,2024-11-22 09:35:11.405738
+customer4,Americano,Small,3,Extra Milk,16.5,6.0,2024-11-22 09:35:11.405738
+customer7,Caramel Macchiato,Medium,3,Extra Sugar,25.5,12.0,2024-11-22 09:35:11.405738
+customer9,Americano,Large,3,"Whipped Cream, Extra Sugar",24.0,9.0,2024-11-22 09:35:11.405738
+customer2,Cappuccino,Medium,2,,14.0,6.0,2024-11-21 09:35:11.406080
+customer4,Caramel Macchiato,Large,1,Extra Milk,9.5,4.5,2024-11-21 09:35:11.406080
+customer8,Espresso,Small,1,"Extra Milk, Extra Sugar, Whipped Cream",5.5,1.5,2024-11-21 09:35:11.406080
+customer10,Americano,Medium,2,,12.0,5.0,2024-11-21 09:35:11.406080
+customer9,Americano,Small,2,"Extra Milk, Extra Sugar, Whipped Cream",13.0,4.0,2024-11-21 09:35:11.406080
+customer7,Caramel Macchiato,Large,1,"Extra Milk, Whipped Cream",10.0,4.5,2024-11-21 09:35:11.406080
+customer5,Cappuccino,Medium,3,"Extra Milk, Extra Sugar, Whipped Cream",25.5,9.0,2024-11-21 09:35:11.406080
+customer3,Espresso,Small,1,"Extra Sugar, Whipped Cream",5.0,1.5,2024-11-21 09:35:11.406080
+customer6,Caramel Macchiato,Medium,1,"Extra Milk, Whipped Cream",9.0,4.0,2024-11-20 09:35:11.406153
+customer1,Espresso,Medium,1,"Extra Sugar, Whipped Cream",6.0,2.0,2024-11-20 09:35:11.406153
+customer2,Espresso,Small,1,"Extra Sugar, Extra Milk, Whipped Cream",5.5,1.5,2024-11-20 09:35:11.406153
+customer8,Cappuccino,Medium,1,"Extra Sugar, Extra Milk",8.0,3.0,2024-11-20 09:35:11.406153
+customer10,Caramel Macchiato,Medium,3,"Extra Milk, Whipped Cream",27.0,12.0,2024-11-20 09:35:11.406153
+customer10,Americano,Small,3,Extra Milk,16.5,6.0,2024-11-20 09:35:11.406153
+customer3,Latte,Small,3,,19.5,9.0,2024-11-20 09:35:11.406153
+customer7,Espresso,Large,3,"Extra Milk, Extra Sugar, Whipped Cream",22.5,7.5,2024-11-20 09:35:11.406153
+customer2,Cappuccino,Small,1,,6.0,2.5,2024-11-20 09:35:11.406153
+customer10,Caramel Macchiato,Small,2,Extra Sugar,15.0,7.0,2024-11-20 09:35:11.406153
+customer8,Latte,Medium,3,,22.5,10.5,2024-11-20 09:35:11.406153
+customer5,Americano,Medium,1,"Extra Sugar, Whipped Cream, Extra Milk",7.5,2.5,2024-11-20 09:35:11.406153
+customer1,Cappuccino,Small,3,Whipped Cream,19.5,7.5,2024-11-20 09:35:11.406153
+customer8,Espresso,Medium,1,"Whipped Cream, Extra Sugar",6.0,2.0,2024-11-20 09:35:11.406153
+customer10,Americano,Medium,1,Extra Milk,6.5,2.5,2024-11-20 09:35:11.406153
+customer7,Caramel Macchiato,Medium,1,Extra Sugar,8.5,4.0,2024-11-19 09:35:11.406273
+customer3,Cappuccino,Large,1,,8.0,3.5,2024-11-19 09:35:11.406273
+customer9,Caramel Macchiato,Large,1,"Whipped Cream, Extra Sugar",10.0,4.5,2024-11-19 09:35:11.406273
+customer9,Americano,Large,2,Whipped Cream,15.0,6.0,2024-11-19 09:35:11.406273
+customer10,Americano,Small,3,"Extra Sugar, Whipped Cream, Extra Milk",19.5,6.0,2024-11-19 09:35:11.406273
+customer6,Latte,Large,3,"Extra Sugar, Extra Milk",28.5,12.0,2024-11-19 09:35:11.406273
+customer10,Espresso,Small,1,Extra Sugar,4.5,1.5,2024-11-19 09:35:11.406273
+customer10,Americano,Medium,2,"Whipped Cream, Extra Milk, Extra Sugar",15.0,5.0,2024-11-19 09:35:11.406273
+customer5,Caramel Macchiato,Medium,3,"Whipped Cream, Extra Milk, Extra Sugar",28.5,12.0,2024-11-19 09:35:11.406273
+customer2,Caramel Macchiato,Small,2,"Extra Sugar, Whipped Cream, Extra Milk",17.0,7.0,2024-11-19 09:35:11.406273
+customer7,Latte,Small,3,"Extra Milk, Whipped Cream, Extra Sugar",24.0,9.0,2024-11-19 09:35:11.406273
+customer6,Espresso,Small,3,"Extra Sugar, Extra Milk",15.0,4.5,2024-11-19 09:35:11.406273
+customer2,Caramel Macchiato,Medium,1,"Extra Sugar, Whipped Cream",9.0,4.0,2024-11-19 09:35:11.406273
+customer2,Americano,Large,2,"Whipped Cream, Extra Sugar",16.0,6.0,2024-11-18 09:35:11.406418
+customer7,Cappuccino,Large,2,Extra Sugar,17.0,7.0,2024-11-18 09:35:11.406418
+customer8,Latte,Large,3,,25.5,12.0,2024-11-18 09:35:11.406418
+customer7,Americano,Medium,2,Extra Milk,13.0,5.0,2024-11-18 09:35:11.406418
+customer10,Caramel Macchiato,Small,2,,14.0,7.0,2024-11-18 09:35:11.406418
+customer4,Espresso,Large,3,Whipped Cream,19.5,7.5,2024-11-18 09:35:11.406418
+customer2,Espresso,Medium,1,Extra Sugar,5.5,2.0,2024-11-18 09:35:11.406418
+customer9,Caramel Macchiato,Small,3,,21.0,10.5,2024-11-18 09:35:11.406418
+customer6,Caramel Macchiato,Small,3,,21.0,10.5,2024-11-18 09:35:11.406418
+customer5,Americano,Medium,3,Whipped Cream,19.5,7.5,2024-11-18 09:35:11.406418
+customer3,Caramel Macchiato,Large,1,,9.0,4.5,2024-11-18 09:35:11.406418
+customer10,Latte,Small,2,"Extra Milk, Whipped Cream",15.0,6.0,2024-11-18 09:35:11.406418
+customer10,Americano,Small,1,"Extra Sugar, Extra Milk",6.0,2.0,2024-11-18 09:35:11.406418
+customer3,Cappuccino,Medium,3,Extra Milk,22.5,9.0,2024-11-18 09:35:11.406418
+customer10,Cappuccino,Large,3,"Whipped Cream, Extra Sugar, Extra Milk",28.5,10.5,2024-11-18 09:35:11.406418
+customer5,Cappuccino,Medium,3,"Extra Sugar, Extra Milk, Whipped Cream",25.5,9.0,2024-11-18 09:35:11.406418
+customer9,Espresso,Medium,2,Extra Sugar,11.0,4.0,2024-11-18 09:35:11.406418
+customer6,Americano,Medium,3,"Extra Milk, Extra Sugar, Whipped Cream",22.5,7.5,2024-11-18 09:35:11.406418
+customer10,Latte,Small,1,,6.5,3.0,2024-11-17 09:35:11.406568
+customer4,Caramel Macchiato,Large,2,Extra Sugar,19.0,9.0,2024-11-17 09:35:11.406568
+customer1,Americano,Small,3,"Extra Sugar, Extra Milk",18.0,6.0,2024-11-17 09:35:11.406568
+customer4,Espresso,Small,2,"Extra Milk, Extra Sugar, Whipped Cream",11.0,3.0,2024-11-17 09:35:11.406568
+customer8,Americano,Large,3,,21.0,9.0,2024-11-17 09:35:11.406568
+customer2,Espresso,Large,3,"Extra Sugar, Whipped Cream, Extra Milk",22.5,7.5,2024-11-17 09:35:11.406568
+customer7,Cappuccino,Large,1,"Extra Sugar, Extra Milk, Whipped Cream",9.5,3.5,2024-11-17 09:35:11.406568
+customer1,Latte,Medium,3,Extra Milk,24.0,10.5,2024-11-17 09:35:11.406568
+customer2,Cappuccino,Large,2,"Extra Milk, Whipped Cream",18.0,7.0,2024-11-17 09:35:11.406568
+customer4,Cappuccino,Large,3,"Whipped Cream, Extra Milk, Extra Sugar",28.5,10.5,2024-11-16 09:35:11.406646
+customer10,Cappuccino,Large,2,,16.0,7.0,2024-11-16 09:35:11.406646
+customer7,Caramel Macchiato,Small,3,"Extra Milk, Extra Sugar, Whipped Cream",25.5,10.5,2024-11-16 09:35:11.406646
+customer1,Caramel Macchiato,Large,1,"Extra Milk, Whipped Cream",10.0,4.5,2024-11-16 09:35:11.406646
+customer4,Latte,Large,2,Extra Sugar,18.0,8.0,2024-11-16 09:35:11.406646
+customer9,Caramel Macchiato,Medium,2,"Whipped Cream, Extra Milk, Extra Sugar",19.0,8.0,2024-11-16 09:35:11.406646
+customer10,Latte,Medium,3,,22.5,10.5,2024-11-16 09:35:11.406646
+customer6,Cappuccino,Medium,2,"Extra Milk, Extra Sugar",16.0,6.0,2024-11-15 09:35:11.406695
+customer3,Caramel Macchiato,Medium,1,Extra Milk,8.5,4.0,2024-11-15 09:35:11.406695
+customer5,Espresso,Large,1,Extra Sugar,6.5,2.5,2024-11-15 09:35:11.406695
+customer8,Americano,Medium,1,"Whipped Cream, Extra Milk, Extra Sugar",7.5,2.5,2024-11-15 09:35:11.406695
+customer4,Latte,Medium,2,"Whipped Cream, Extra Sugar",17.0,7.0,2024-11-15 09:35:11.406695
+customer4,Caramel Macchiato,Small,3,Extra Milk,22.5,10.5,2024-11-15 09:35:11.406695
+customer8,Americano,Small,3,Extra Milk,16.5,6.0,2024-11-15 09:35:11.406695
+customer6,Cappuccino,Medium,3,"Extra Sugar, Whipped Cream",24.0,9.0,2024-11-15 09:35:11.406695
+customer9,Caramel Macchiato,Large,1,"Extra Sugar, Extra Milk, Whipped Cream",10.5,4.5,2024-11-14 09:35:11.406767
+customer10,Cappuccino,Medium,3,Extra Milk,22.5,9.0,2024-11-14 09:35:11.406767
+customer6,Espresso,Large,3,,18.0,7.5,2024-11-14 09:35:11.406767
+customer2,Espresso,Medium,1,"Whipped Cream, Extra Milk",6.0,2.0,2024-11-14 09:35:11.406767
+customer9,Cappuccino,Large,2,Extra Milk,17.0,7.0,2024-11-14 09:35:11.406767
+customer8,Latte,Large,3,"Extra Milk, Whipped Cream",28.5,12.0,2024-11-13 09:35:11.406807
+customer9,Espresso,Large,1,Extra Sugar,6.5,2.5,2024-11-13 09:35:11.406807
+customer3,Latte,Medium,1,"Extra Milk, Extra Sugar, Whipped Cream",9.0,3.5,2024-11-13 09:35:11.406807
+customer6,Espresso,Small,1,"Whipped Cream, Extra Milk",5.0,1.5,2024-11-13 09:35:11.406807
+customer9,Americano,Medium,1,,6.0,2.5,2024-11-13 09:35:11.406807
+customer3,Cappuccino,Large,1,Whipped Cream,8.5,3.5,2024-11-13 09:35:11.406807
+customer8,Americano,Medium,1,"Extra Milk, Whipped Cream, Extra Sugar",7.5,2.5,2024-11-13 09:35:11.406807
+customer8,Caramel Macchiato,Medium,1,Extra Sugar,8.5,4.0,2024-11-12 09:35:11.406854
+customer9,Americano,Large,2,,14.0,6.0,2024-11-12 09:35:11.406854
+customer3,Espresso,Large,3,Extra Sugar,19.5,7.5,2024-11-12 09:35:11.406854
+customer6,Latte,Large,1,"Extra Milk, Extra Sugar",9.5,4.0,2024-11-12 09:35:11.406854
+customer6,Caramel Macchiato,Large,1,"Whipped Cream, Extra Milk, Extra Sugar",10.5,4.5,2024-11-12 09:35:11.406854
+customer3,Espresso,Medium,1,"Extra Milk, Extra Sugar",6.0,2.0,2024-11-12 09:35:11.406854
+customer9,Latte,Small,1,"Extra Milk, Whipped Cream",7.5,3.0,2024-11-11 09:35:11.406906
+customer2,Americano,Large,2,"Extra Milk, Whipped Cream, Extra Sugar",17.0,6.0,2024-11-11 09:35:11.406906
+customer10,Espresso,Medium,3,Extra Sugar,16.5,6.0,2024-11-11 09:35:11.406906
+customer6,Cappuccino,Medium,1,Extra Sugar,7.5,3.0,2024-11-11 09:35:11.406906
+customer8,Caramel Macchiato,Large,1,,9.0,4.5,2024-11-11 09:35:11.406906
+customer1,Americano,Large,1,,7.0,3.0,2024-11-11 09:35:11.406906
+customer3,Latte,Large,3,Extra Milk,27.0,12.0,2024-11-10 09:35:11.406958
+customer1,Espresso,Large,1,,6.0,2.5,2024-11-10 09:35:11.406958
+customer10,Caramel Macchiato,Large,2,"Whipped Cream, Extra Sugar",20.0,9.0,2024-11-10 09:35:11.406958
+customer6,Americano,Small,2,Whipped Cream,11.0,4.0,2024-11-10 09:35:11.406958
+customer3,Caramel Macchiato,Large,2,Extra Milk,19.0,9.0,2024-11-10 09:35:11.406958
+customer5,Caramel Macchiato,Large,1,"Whipped Cream, Extra Sugar, Extra Milk",10.5,4.5,2024-11-10 09:35:11.406958
+customer6,Espresso,Large,1,,6.0,2.5,2024-11-10 09:35:11.406958
+customer6,Americano,Large,1,"Extra Milk, Whipped Cream, Extra Sugar",8.5,3.0,2024-11-10 09:35:11.406958
+customer8,Cappuccino,Large,2,"Whipped Cream, Extra Sugar",18.0,7.0,2024-11-10 09:35:11.406958
+customer10,Americano,Small,2,,10.0,4.0,2024-11-10 09:35:11.406958
+customer5,Americano,Small,3,"Whipped Cream, Extra Milk",18.0,6.0,2024-11-10 09:35:11.406958
+customer3,Caramel Macchiato,Large,1,Extra Milk,9.5,4.5,2024-11-10 09:35:11.406958
+customer8,Cappuccino,Medium,1,"Whipped Cream, Extra Sugar, Extra Milk",8.5,3.0,2024-11-10 09:35:11.406958
+customer5,Espresso,Medium,3,,15.0,6.0,2024-11-09 09:35:11.407059
+customer7,Americano,Large,2,Extra Sugar,15.0,6.0,2024-11-09 09:35:11.407059
+customer8,Espresso,Medium,2,"Extra Milk, Whipped Cream, Extra Sugar",13.0,4.0,2024-11-09 09:35:11.407059
+customer2,Caramel Macchiato,Medium,1,,8.0,4.0,2024-11-09 09:35:11.407059
+customer7,Caramel Macchiato,Large,1,"Extra Sugar, Whipped Cream",10.0,4.5,2024-11-09 09:35:11.407059
+customer10,Latte,Large,3,Whipped Cream,27.0,12.0,2024-11-09 09:35:11.407059
+customer3,Espresso,Small,1,Extra Milk,4.5,1.5,2024-11-09 09:35:11.407059
+customer9,Espresso,Medium,3,,15.0,6.0,2024-11-09 09:35:11.407059
+customer2,Espresso,Small,1,"Extra Milk, Extra Sugar",5.0,1.5,2024-11-09 09:35:11.407059
+customer1,Caramel Macchiato,Medium,3,"Extra Milk, Extra Sugar, Whipped Cream",28.5,12.0,2024-11-09 09:35:11.407059
+customer7,Espresso,Medium,1,"Extra Sugar, Whipped Cream",6.0,2.0,2024-11-09 09:35:11.407059
+customer2,Espresso,Small,2,"Whipped Cream, Extra Sugar, Extra Milk",11.0,3.0,2024-11-09 09:35:11.407059
+customer9,Americano,Large,1,Whipped Cream,7.5,3.0,2024-11-09 09:35:11.407059
+customer3,Latte,Medium,3,"Whipped Cream, Extra Milk",25.5,10.5,2024-11-09 09:35:11.407059
+customer4,Espresso,Large,1,"Extra Milk, Extra Sugar",7.0,2.5,2024-11-09 09:35:11.407059
+customer10,Americano,Small,1,,5.0,2.0,2024-11-09 09:35:11.407059
+customer8,Cappuccino,Medium,3,,21.0,9.0,2024-11-09 09:35:11.407059
+customer6,Cappuccino,Large,2,"Extra Sugar, Whipped Cream",18.0,7.0,2024-11-09 09:35:11.407059
+customer10,Espresso,Large,3,"Whipped Cream, Extra Milk, Extra Sugar",22.5,7.5,2024-11-09 09:35:11.407059
+customer1,Latte,Medium,3,"Whipped Cream, Extra Sugar",25.5,10.5,2024-11-09 09:35:11.407059
+customer1,Cappuccino,Medium,1,,7.0,3.0,2024-11-08 09:35:11.407231
+customer2,Espresso,Medium,3,Whipped Cream,16.5,6.0,2024-11-08 09:35:11.407231
+customer1,Latte,Medium,2,Extra Sugar,16.0,7.0,2024-11-08 09:35:11.407231
+customer2,Americano,Small,2,,10.0,4.0,2024-11-08 09:35:11.407231
+customer9,Cappuccino,Large,1,Extra Milk,8.5,3.5,2024-11-08 09:35:11.407231
+customer4,Espresso,Large,1,"Extra Milk, Whipped Cream, Extra Sugar",7.5,2.5,2024-11-08 09:35:11.407231
+customer8,Caramel Macchiato,Large,1,Extra Sugar,9.5,4.5,2024-11-08 09:35:11.407231
+customer1,Cappuccino,Large,1,"Extra Sugar, Extra Milk, Whipped Cream",9.5,3.5,2024-11-08 09:35:11.407231
+customer2,Latte,Medium,2,"Whipped Cream, Extra Sugar, Extra Milk",18.0,7.0,2024-11-08 09:35:11.407231
+customer2,Cappuccino,Medium,2,Extra Milk,15.0,6.0,2024-11-07 09:35:11.407301
+customer9,Cappuccino,Medium,3,Extra Milk,22.5,9.0,2024-11-07 09:35:11.407301
+customer1,Cappuccino,Medium,2,,14.0,6.0,2024-11-07 09:35:11.407301
+customer10,Caramel Macchiato,Large,2,"Extra Milk, Extra Sugar",20.0,9.0,2024-11-07 09:35:11.407301
+customer10,Americano,Small,2,,10.0,4.0,2024-11-07 09:35:11.407301
+customer5,Caramel Macchiato,Medium,1,"Extra Sugar, Whipped Cream",9.0,4.0,2024-11-07 09:35:11.407301
+customer7,Cappuccino,Medium,2,"Whipped Cream, Extra Milk, Extra Sugar",17.0,6.0,2024-11-07 09:35:11.407301
+customer5,Cappuccino,Medium,3,Whipped Cream,22.5,9.0,2024-11-07 09:35:11.407301
+customer9,Latte,Large,2,"Extra Milk, Whipped Cream",19.0,8.0,2024-11-07 09:35:11.407301
+customer9,Caramel Macchiato,Medium,3,"Extra Milk, Extra Sugar, Whipped Cream",28.5,12.0,2024-11-07 09:35:11.407301
+customer9,Espresso,Medium,3,"Extra Sugar, Whipped Cream, Extra Milk",19.5,6.0,2024-11-07 09:35:11.407301
+customer2,Cappuccino,Small,1,Extra Sugar,6.5,2.5,2024-11-07 09:35:11.407301
+customer3,Cappuccino,Medium,2,,14.0,6.0,2024-11-07 09:35:11.407301
+customer1,Caramel Macchiato,Small,3,Extra Sugar,22.5,10.5,2024-11-07 09:35:11.407301
+customer8,Cappuccino,Large,2,"Extra Sugar, Extra Milk, Whipped Cream",19.0,7.0,2024-11-07 09:35:11.407301
+customer7,Latte,Small,1,"Extra Sugar, Whipped Cream, Extra Milk",8.0,3.0,2024-11-06 09:35:11.407428
+customer10,Americano,Large,2,"Extra Sugar, Whipped Cream, Extra Milk",17.0,6.0,2024-11-06 09:35:11.407428
+customer1,Latte,Large,3,"Extra Sugar, Extra Milk, Whipped Cream",30.0,12.0,2024-11-06 09:35:11.407428
+customer10,Latte,Large,3,Whipped Cream,27.0,12.0,2024-11-06 09:35:11.407428
+customer7,Caramel Macchiato,Large,3,"Whipped Cream, Extra Sugar",30.0,13.5,2024-11-06 09:35:11.407428
+customer1,Cappuccino,Large,1,"Extra Milk, Whipped Cream",9.0,3.5,2024-11-06 09:35:11.407428
+customer7,Espresso,Large,1,"Extra Milk, Whipped Cream",7.0,2.5,2024-11-06 09:35:11.407428
+customer7,Caramel Macchiato,Large,3,Extra Sugar,28.5,13.5,2024-11-06 09:35:11.407428
+customer1,Cappuccino,Small,3,,18.0,7.5,2024-11-06 09:35:11.407428
+customer1,Espresso,Medium,1,Extra Milk,5.5,2.0,2024-11-06 09:35:11.407428
+customer5,Caramel Macchiato,Small,2,Extra Sugar,15.0,7.0,2024-11-06 09:35:11.407428
+customer4,Espresso,Large,1,,6.0,2.5,2024-11-06 09:35:11.407428
+customer3,Cappuccino,Small,3,"Whipped Cream, Extra Milk, Extra Sugar",22.5,7.5,2024-11-06 09:35:11.407428
+customer1,Caramel Macchiato,Small,2,,14.0,7.0,2024-11-05 09:35:11.407557
+customer2,Americano,Large,2,"Extra Milk, Whipped Cream, Extra Sugar",17.0,6.0,2024-11-05 09:35:11.407557
+customer7,Espresso,Small,2,,8.0,3.0,2024-11-05 09:35:11.407557
+customer7,Cappuccino,Large,1,"Whipped Cream, Extra Sugar, Extra Milk",9.5,3.5,2024-11-05 09:35:11.407557
+customer2,Americano,Medium,3,Whipped Cream,19.5,7.5,2024-11-05 09:35:11.407557
+customer2,Caramel Macchiato,Medium,2,"Extra Sugar, Whipped Cream, Extra Milk",19.0,8.0,2024-11-05 09:35:11.407557
+customer7,Cappuccino,Large,1,"Extra Sugar, Extra Milk",9.0,3.5,2024-11-05 09:35:11.407557
+customer4,Americano,Medium,2,"Extra Sugar, Extra Milk, Whipped Cream",15.0,5.0,2024-11-05 09:35:11.407557
+customer1,Cappuccino,Large,1,Extra Sugar,8.5,3.5,2024-11-05 09:35:11.407557
+customer6,Espresso,Small,2,,8.0,3.0,2024-11-05 09:35:11.407557
+customer1,Caramel Macchiato,Small,3,,21.0,10.5,2024-11-05 09:35:11.407557
+customer5,Espresso,Small,1,"Whipped Cream, Extra Milk",5.0,1.5,2024-11-05 09:35:11.407557
+customer7,Cappuccino,Small,3,"Extra Milk, Whipped Cream, Extra Sugar",22.5,7.5,2024-11-05 09:35:11.407557
+customer10,Americano,Small,1,"Extra Milk, Extra Sugar",6.0,2.0,2024-11-05 09:35:11.407557
+customer6,Espresso,Small,2,"Extra Milk, Extra Sugar",10.0,3.0,2024-11-05 09:35:11.407557
+customer8,Cappuccino,Small,3,"Whipped Cream, Extra Sugar, Extra Milk",22.5,7.5,2024-11-04 09:35:11.407657
+customer1,Latte,Large,3,"Extra Milk, Extra Sugar, Whipped Cream",30.0,12.0,2024-11-04 09:35:11.407657
+customer6,Espresso,Medium,3,"Extra Sugar, Extra Milk",18.0,6.0,2024-11-04 09:35:11.407657
+customer9,Cappuccino,Large,1,"Extra Milk, Whipped Cream",9.0,3.5,2024-11-04 09:35:11.407657
+customer5,Caramel Macchiato,Medium,1,"Extra Sugar, Extra Milk, Whipped Cream",9.5,4.0,2024-11-04 09:35:11.407657
+customer7,Caramel Macchiato,Large,1,"Whipped Cream, Extra Milk, Extra Sugar",10.5,4.5,2024-11-04 09:35:11.407657
+customer4,Caramel Macchiato,Medium,3,"Whipped Cream, Extra Milk, Extra Sugar",28.5,12.0,2024-11-03 09:35:11.407720
+customer1,Cappuccino,Large,1,"Extra Milk, Extra Sugar",9.0,3.5,2024-11-03 09:35:11.407720
+customer9,Cappuccino,Medium,1,Whipped Cream,7.5,3.0,2024-11-03 09:35:11.407720
+customer9,Latte,Small,1,,6.5,3.0,2024-11-03 09:35:11.407720
+customer10,Espresso,Medium,3,,15.0,6.0,2024-11-03 09:35:11.407720
+customer9,Latte,Medium,2,"Extra Milk, Extra Sugar",17.0,7.0,2024-11-03 09:35:11.407720
+customer5,Americano,Medium,1,,6.0,2.5,2024-11-03 09:35:11.407720
+customer8,Latte,Large,2,,17.0,8.0,2024-11-03 09:35:11.407720
+customer1,Espresso,Large,1,,6.0,2.5,2024-11-03 09:35:11.407720
+customer5,Cappuccino,Medium,2,,14.0,6.0,2024-11-03 09:35:11.407720
+customer9,Americano,Large,2,"Extra Milk, Extra Sugar, Whipped Cream",17.0,6.0,2024-11-03 09:35:11.407720
+customer2,Espresso,Small,3,Extra Milk,13.5,4.5,2024-11-03 09:35:11.407720
+customer10,Latte,Medium,3,Extra Sugar,24.0,10.5,2024-11-03 09:35:11.407720
+customer6,Caramel Macchiato,Large,2,"Extra Sugar, Extra Milk",20.0,9.0,2024-11-03 09:35:11.407720
+customer5,Espresso,Small,1,,4.0,1.5,2024-11-03 09:35:11.407720
+customer6,Caramel Macchiato,Medium,3,Extra Sugar,25.5,12.0,2024-11-03 09:35:11.407720
+customer1,Americano,Small,3,"Extra Milk, Whipped Cream",18.0,6.0,2024-11-02 09:35:11.407841
+customer6,Americano,Medium,1,"Extra Milk, Whipped Cream, Extra Sugar",7.5,2.5,2024-11-02 09:35:11.407841
+customer3,Americano,Large,1,"Whipped Cream, Extra Milk",8.0,3.0,2024-11-02 09:35:11.407841
+customer6,Americano,Medium,2,"Whipped Cream, Extra Milk",14.0,5.0,2024-11-02 09:35:11.407841
+customer1,Americano,Medium,3,"Whipped Cream, Extra Sugar",21.0,7.5,2024-11-02 09:35:11.407841
+customer9,Caramel Macchiato,Large,2,"Extra Milk, Extra Sugar, Whipped Cream",21.0,9.0,2024-11-02 09:35:11.407841
+customer4,Latte,Medium,1,Extra Sugar,8.0,3.5,2024-11-02 09:35:11.407841
+customer4,Espresso,Large,3,"Extra Milk, Extra Sugar",21.0,7.5,2024-11-02 09:35:11.407841
+customer4,Cappuccino,Small,1,"Extra Sugar, Whipped Cream",7.0,2.5,2024-11-02 09:35:11.407841
+customer9,Cappuccino,Large,3,"Whipped Cream, Extra Sugar, Extra Milk",28.5,10.5,2024-11-01 09:35:11.407904
+customer5,Latte,Small,1,"Extra Sugar, Whipped Cream, Extra Milk",8.0,3.0,2024-11-01 09:35:11.407904
+customer10,Cappuccino,Medium,2,Whipped Cream,15.0,6.0,2024-11-01 09:35:11.407904
+customer9,Caramel Macchiato,Small,3,Extra Milk,22.5,10.5,2024-11-01 09:35:11.407904
+customer3,Cappuccino,Large,1,Whipped Cream,8.5,3.5,2024-11-01 09:35:11.407904
+customer10,Latte,Large,3,Extra Milk,27.0,12.0,2024-11-01 09:35:11.407904
+customer5,Caramel Macchiato,Medium,3,"Extra Milk, Extra Sugar, Whipped Cream",28.5,12.0,2024-11-01 09:35:11.407904
+customer3,Latte,Large,3,Extra Milk,27.0,12.0,2024-11-01 09:35:11.407904
+customer9,Cappuccino,Small,1,"Extra Sugar, Extra Milk, Whipped Cream",7.5,2.5,2024-11-01 09:35:11.407904
+customer2,Cappuccino,Small,3,Whipped Cream,19.5,7.5,2024-11-01 09:35:11.407904
+customer2,Cappuccino,Large,3,"Extra Sugar, Whipped Cream, Extra Milk",28.5,10.5,2024-11-01 09:35:11.407904
+customer9,Cappuccino,Large,2,,16.0,7.0,2024-11-01 09:35:11.407904
+customer1,Cappuccino,Small,1,Extra Sugar,6.5,2.5,2024-11-01 09:35:11.407904
+customer8,Espresso,Small,3,"Extra Sugar, Whipped Cream",15.0,4.5,2024-11-01 09:35:11.407904
+customer10,Latte,Small,2,Whipped Cream,14.0,6.0,2024-11-01 09:35:11.407904
+customer4,Caramel Macchiato,Medium,1,"Whipped Cream, Extra Sugar",9.0,4.0,2024-11-01 09:35:11.407904
+customer7,Cappuccino,Small,1,"Extra Milk, Whipped Cream, Extra Sugar",7.5,2.5,2024-11-01 09:35:11.407904
+customer9,Cappuccino,Medium,3,"Extra Milk, Extra Sugar, Whipped Cream",25.5,9.0,2024-11-01 09:35:11.407904
+customer10,Americano,Medium,1,,6.0,2.5,2024-11-01 09:35:11.407904
+customer3,Caramel Macchiato,Small,3,"Extra Milk, Whipped Cream",24.0,10.5,2024-10-31 09:35:11.408037
+customer6,Caramel Macchiato,Medium,3,"Extra Sugar, Extra Milk",27.0,12.0,2024-10-31 09:35:11.408037
+customer5,Cappuccino,Medium,1,"Extra Milk, Extra Sugar, Whipped Cream",8.5,3.0,2024-10-31 09:35:11.408037
+customer7,Latte,Medium,1,Extra Milk,8.0,3.5,2024-10-31 09:35:11.408037
+customer10,Cappuccino,Medium,1,"Extra Sugar, Extra Milk",8.0,3.0,2024-10-31 09:35:11.408037
+customer5,Cappuccino,Medium,3,"Extra Sugar, Whipped Cream, Extra Milk",25.5,9.0,2024-10-31 09:35:11.408037
+customer8,Espresso,Small,1,"Whipped Cream, Extra Milk",5.0,1.5,2024-10-31 09:35:11.408037
+customer6,Americano,Small,1,,5.0,2.0,2024-10-31 09:35:11.408037
+customer3,Latte,Large,3,Extra Sugar,27.0,12.0,2024-10-31 09:35:11.408037
+customer9,Espresso,Small,1,Extra Sugar,4.5,1.5,2024-10-31 09:35:11.408037
+customer10,Espresso,Large,1,Whipped Cream,6.5,2.5,2024-10-31 09:35:11.408037
+customer7,Caramel Macchiato,Medium,3,"Whipped Cream, Extra Sugar",27.0,12.0,2024-10-31 09:35:11.408037
+customer5,Americano,Small,3,,15.0,6.0,2024-10-31 09:35:11.408037
+customer7,Caramel Macchiato,Medium,3,Extra Milk,25.5,12.0,2024-10-31 09:35:11.408037
+customer1,Americano,Medium,3,Whipped Cream,19.5,7.5,2024-10-31 09:35:11.408037
+customer5,Americano,Small,2,"Whipped Cream, Extra Milk",12.0,4.0,2024-10-31 09:35:11.408037
+customer6,Espresso,Medium,3,Extra Sugar,16.5,6.0,2024-10-31 09:35:11.408037
+customer3,Latte,Large,1,"Whipped Cream, Extra Milk",9.5,4.0,2024-10-31 09:35:11.408037
+customer6,Americano,Small,2,"Extra Sugar, Whipped Cream",12.0,4.0,2024-10-31 09:35:11.408037
+customer2,Cappuccino,Medium,2,Extra Sugar,15.0,6.0,2024-10-30 09:35:11.408187
+customer8,Caramel Macchiato,Medium,1,"Extra Milk, Extra Sugar, Whipped Cream",9.5,4.0,2024-10-30 09:35:11.408187
+customer7,Cappuccino,Medium,2,"Whipped Cream, Extra Sugar, Extra Milk",17.0,6.0,2024-10-30 09:35:11.408187
+customer5,Latte,Large,2,,17.0,8.0,2024-10-30 09:35:11.408187
+customer4,Latte,Medium,2,Whipped Cream,16.0,7.0,2024-10-30 09:35:11.408187
+customer7,Cappuccino,Medium,2,Whipped Cream,15.0,6.0,2024-10-30 09:35:11.408187
+customer8,Latte,Large,3,"Extra Sugar, Extra Milk",28.5,12.0,2024-10-30 09:35:11.408187
+customer10,Americano,Medium,1,Extra Milk,6.5,2.5,2024-10-30 09:35:11.408187
+customer3,Cappuccino,Small,3,"Whipped Cream, Extra Sugar, Extra Milk",22.5,7.5,2024-10-30 09:35:11.408187
+customer9,Americano,Large,3,"Extra Milk, Whipped Cream",24.0,9.0,2024-10-30 09:35:11.408187
+customer9,Cappuccino,Small,3,,18.0,7.5,2024-10-30 09:35:11.408187
+customer2,Americano,Medium,3,"Whipped Cream, Extra Sugar, Extra Milk",22.5,7.5,2024-10-30 09:35:11.408187
+customer1,Americano,Small,1,,5.0,2.0,2024-10-30 09:35:11.408187
+customer1,Espresso,Large,3,Whipped Cream,19.5,7.5,2024-10-30 09:35:11.408187
+customer6,Cappuccino,Small,2,,12.0,5.0,2024-10-30 09:35:11.408187
+customer7,Espresso,Large,2,"Extra Sugar, Whipped Cream, Extra Milk",15.0,5.0,2024-10-30 09:35:11.408187
+customer7,Americano,Small,2,Extra Milk,11.0,4.0,2024-10-30 09:35:11.408187
+customer3,Caramel Macchiato,Small,3,"Whipped Cream, Extra Sugar",24.0,10.5,2024-10-30 09:35:11.408187
+customer8,Caramel Macchiato,Medium,3,Extra Sugar,25.5,12.0,2024-10-30 09:35:11.408187
+customer7,Cappuccino,Small,1,"Extra Milk, Extra Sugar, Whipped Cream",7.5,2.5,2024-10-30 09:35:11.408187
+customer2,Espresso,Large,2,,12.0,5.0,2024-10-29 09:35:11.408359
+customer3,Caramel Macchiato,Medium,3,"Extra Sugar, Extra Milk, Whipped Cream",28.5,12.0,2024-10-29 09:35:11.408359
+customer7,Americano,Small,3,,15.0,6.0,2024-10-29 09:35:11.408359
+customer7,Latte,Large,2,"Extra Milk, Extra Sugar, Whipped Cream",20.0,8.0,2024-10-29 09:35:11.408359
+customer5,Cappuccino,Small,3,"Extra Sugar, Extra Milk, Whipped Cream",22.5,7.5,2024-10-29 09:35:11.408359
+customer6,Latte,Large,2,,17.0,8.0,2024-10-29 09:35:11.408359
+customer8,Americano,Large,3,,21.0,9.0,2024-10-29 09:35:11.408359
+customer5,Latte,Large,1,,8.5,4.0,2024-10-29 09:35:11.408359
+customer8,Espresso,Medium,1,Extra Sugar,5.5,2.0,2024-10-29 09:35:11.408359
+customer8,Cappuccino,Large,1,"Extra Milk, Extra Sugar, Whipped Cream",9.5,3.5,2024-10-29 09:35:11.408359
+customer8,Caramel Macchiato,Small,1,"Whipped Cream, Extra Milk, Extra Sugar",8.5,3.5,2024-10-29 09:35:11.408359
+customer10,Cappuccino,Large,2,"Whipped Cream, Extra Sugar",18.0,7.0,2024-10-29 09:35:11.408359
+customer6,Espresso,Large,2,"Whipped Cream, Extra Milk, Extra Sugar",15.0,5.0,2024-10-29 09:35:11.408359
+customer2,Americano,Medium,1,Extra Sugar,6.5,2.5,2024-10-29 09:35:11.408359
+customer4,Caramel Macchiato,Medium,3,"Extra Milk, Extra Sugar",27.0,12.0,2024-10-29 09:35:11.408359
+customer7,Americano,Medium,2,,12.0,5.0,2024-10-29 09:35:11.408359
+customer1,Latte,Large,1,Extra Sugar,9.0,4.0,2024-10-29 09:35:11.408359
+customer8,Espresso,Small,2,,8.0,3.0,2024-10-29 09:35:11.408359
+customer4,Espresso,Medium,3,"Extra Sugar, Whipped Cream, Extra Milk",19.5,6.0,2024-10-29 09:35:11.408359
+customer4,Caramel Macchiato,Medium,3,Extra Milk,25.5,12.0,2024-10-28 09:35:11.408511
+customer6,Americano,Large,2,Extra Sugar,15.0,6.0,2024-10-28 09:35:11.408511
+customer9,Cappuccino,Large,1,Extra Milk,8.5,3.5,2024-10-28 09:35:11.408511
+customer9,Caramel Macchiato,Small,1,"Extra Sugar, Extra Milk",8.0,3.5,2024-10-28 09:35:11.408511
+customer10,Americano,Large,2,"Whipped Cream, Extra Sugar, Extra Milk",17.0,6.0,2024-10-28 09:35:11.408511
+customer2,Americano,Large,3,,21.0,9.0,2024-10-28 09:35:11.408511
+customer2,Caramel Macchiato,Large,2,"Extra Sugar, Whipped Cream",20.0,9.0,2024-10-28 09:35:11.408511
+customer9,Cappuccino,Large,3,"Whipped Cream, Extra Sugar, Extra Milk",28.5,10.5,2024-10-27 09:35:11.408594
+customer4,Latte,Small,3,"Extra Sugar, Whipped Cream",22.5,9.0,2024-10-27 09:35:11.408594
+customer1,Americano,Small,3,"Extra Milk, Extra Sugar",18.0,6.0,2024-10-27 09:35:11.408594
+customer8,Caramel Macchiato,Small,1,,7.0,3.5,2024-10-27 09:35:11.408594
+customer9,Latte,Large,1,"Extra Milk, Extra Sugar, Whipped Cream",10.0,4.0,2024-10-27 09:35:11.408594
+customer2,Caramel Macchiato,Large,3,,27.0,13.5,2024-10-27 09:35:11.408594
+customer4,Cappuccino,Large,1,,8.0,3.5,2024-10-27 09:35:11.408594
+customer2,Cappuccino,Large,2,,16.0,7.0,2024-10-27 09:35:11.408594
+customer1,Latte,Small,2,Whipped Cream,14.0,6.0,2024-10-27 09:35:11.408594
+customer7,Latte,Large,2,,17.0,8.0,2024-10-27 09:35:11.408594
+customer4,Latte,Large,3,"Extra Sugar, Extra Milk, Whipped Cream",30.0,12.0,2024-10-27 09:35:11.408594
+customer1,Cappuccino,Large,1,"Extra Milk, Extra Sugar, Whipped Cream",9.5,3.5,2024-10-27 09:35:11.408594
+customer9,Americano,Medium,3,"Extra Milk, Extra Sugar",21.0,7.5,2024-10-27 09:35:11.408594
+customer7,Latte,Small,1,"Extra Milk, Extra Sugar",7.5,3.0,2024-10-27 09:35:11.408594
+customer3,Caramel Macchiato,Medium,2,Whipped Cream,17.0,8.0,2024-10-26 09:35:11.408701
+customer9,Latte,Medium,1,,7.5,3.5,2024-10-26 09:35:11.408701
+customer1,Latte,Medium,1,"Extra Sugar, Extra Milk",8.5,3.5,2024-10-26 09:35:11.408701
+customer4,Americano,Small,2,"Whipped Cream, Extra Milk",12.0,4.0,2024-10-26 09:35:11.408701
+customer6,Latte,Medium,1,,7.5,3.5,2024-10-26 09:35:11.408701
+customer7,Espresso,Small,3,Whipped Cream,13.5,4.5,2024-10-26 09:35:11.408701
+customer6,Espresso,Medium,1,Whipped Cream,5.5,2.0,2024-10-26 09:35:11.408701
+customer7,Espresso,Small,1,Extra Sugar,4.5,1.5,2024-10-26 09:35:11.408701
+customer1,Latte,Medium,2,Extra Sugar,16.0,7.0,2024-10-26 09:35:11.408701
+customer3,Latte,Medium,1,Extra Milk,8.0,3.5,2024-10-26 09:35:11.408701
+customer9,Caramel Macchiato,Medium,3,"Extra Sugar, Whipped Cream, Extra Milk",28.5,12.0,2024-10-26 09:35:11.408701
+customer9,Americano,Large,3,,21.0,9.0,2024-10-26 09:35:11.408701
+customer4,Espresso,Medium,3,"Whipped Cream, Extra Milk, Extra Sugar",19.5,6.0,2024-10-26 09:35:11.408701
+customer1,Espresso,Large,3,"Extra Milk, Extra Sugar",21.0,7.5,2024-10-26 09:35:11.408701
+customer9,Espresso,Small,3,"Extra Milk, Whipped Cream, Extra Sugar",16.5,4.5,2024-10-26 09:35:11.408701
+customer3,Caramel Macchiato,Large,1,Whipped Cream,9.5,4.5,2024-10-25 09:35:11.408817
+customer6,Cappuccino,Small,3,"Extra Sugar, Whipped Cream, Extra Milk",22.5,7.5,2024-10-25 09:35:11.408817
+customer2,Caramel Macchiato,Large,1,,9.0,4.5,2024-10-25 09:35:11.408817
+customer2,Caramel Macchiato,Large,2,"Whipped Cream, Extra Milk",20.0,9.0,2024-10-25 09:35:11.408817
+customer6,Caramel Macchiato,Large,1,,9.0,4.5,2024-10-25 09:35:11.408817
+customer6,Caramel Macchiato,Medium,1,Extra Sugar,8.5,4.0,2024-10-25 09:35:11.408817
+customer9,Caramel Macchiato,Small,2,,14.0,7.0,2024-10-25 09:35:11.408817
+customer3,Espresso,Large,2,Extra Milk,13.0,5.0,2024-10-25 09:35:11.408817
+customer10,Americano,Large,1,Extra Milk,7.5,3.0,2024-10-25 09:35:11.408817
+customer9,Cappuccino,Medium,3,,21.0,9.0,2024-10-25 09:35:11.408817
+customer9,Espresso,Large,1,Extra Milk,6.5,2.5,2024-10-25 09:35:11.408817
+customer8,Americano,Medium,2,Extra Sugar,13.0,5.0,2024-10-25 09:35:11.408817
+customer4,Caramel Macchiato,Small,2,Extra Sugar,15.0,7.0,2024-10-25 09:35:11.408817
+customer2,Caramel Macchiato,Small,2,"Extra Sugar, Whipped Cream, Extra Milk",17.0,7.0,2024-10-25 09:35:11.408817
+customer10,Cappuccino,Large,2,"Whipped Cream, Extra Sugar",18.0,7.0,2024-10-25 09:35:11.408817
+customer3,Latte,Large,1,"Extra Milk, Whipped Cream",9.5,4.0,2024-10-25 09:35:11.408817
+customer4,Cappuccino,Medium,1,,7.0,3.0,2024-10-24 09:35:11.408936
+customer4,Espresso,Medium,2,,10.0,4.0,2024-10-24 09:35:11.408936
+customer8,Americano,Medium,1,"Extra Milk, Whipped Cream, Extra Sugar",7.5,2.5,2024-10-24 09:35:11.408936
+customer10,Americano,Medium,3,"Extra Milk, Whipped Cream, Extra Sugar",22.5,7.5,2024-10-24 09:35:11.408936
+customer2,Americano,Large,3,Whipped Cream,22.5,9.0,2024-10-24 09:35:11.408936
+customer10,Espresso,Small,2,Extra Milk,9.0,3.0,2024-10-24 09:35:11.408936
+customer2,Espresso,Medium,2,,10.0,4.0,2024-10-24 09:35:11.408936
+customer6,Espresso,Small,2,,8.0,3.0,2024-10-24 09:35:11.408936
+customer1,Espresso,Large,3,,18.0,7.5,2024-10-24 09:35:11.408936
+customer4,Latte,Small,2,Whipped Cream,14.0,6.0,2024-10-24 09:35:11.408936
+customer9,Latte,Large,3,Extra Milk,27.0,12.0,2024-10-24 09:35:11.408936
+customer5,Espresso,Large,3,"Whipped Cream, Extra Sugar",21.0,7.5,2024-10-24 09:35:11.408936
+customer2,Latte,Small,1,"Whipped Cream, Extra Milk, Extra Sugar",8.0,3.0,2024-10-24 09:35:11.408936
+customer4,Latte,Medium,2,"Extra Sugar, Extra Milk",17.0,7.0,2024-10-24 09:35:11.408936
+customer5,Americano,Small,3,"Extra Sugar, Extra Milk, Whipped Cream",19.5,6.0,2024-10-24 09:35:11.408936
+customer8,Cappuccino,Small,2,"Whipped Cream, Extra Milk",14.0,5.0,2024-10-24 09:35:11.408936
+customer4,Cappuccino,Small,2,"Extra Sugar, Extra Milk",14.0,5.0,2024-10-24 09:35:11.408936
+customer1,Latte,Large,2,,17.0,8.0,2024-10-24 09:35:11.408936
+customer9,Espresso,Medium,1,"Whipped Cream, Extra Sugar",6.0,2.0,2024-10-24 09:35:11.408936

@@ -1,0 +1,6 @@
+bcrypt
+matplotlib
+pandas
+streamlit
+stripe
+python-bcrypt
