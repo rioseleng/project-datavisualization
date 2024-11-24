@@ -197,7 +197,7 @@ def analytics_dashboard():
         st.table(orders)
     else:
         st.info("No current orders available.")
-
+    
     # Inventory health check
     st.subheader("Inventory Health Check")
     inventory_health = get_inventory_health()
@@ -222,6 +222,51 @@ def analytics_dashboard():
             st.write(f"{item}: {stock} units in stock ({status})")
     else:
         st.info("All inventory levels are healthy.")
+
+    # Load sales data
+    st.subheader("Sales Analysis")
+    data = get_sales_data()  # Assuming this function retrieves your sales data
+    if data is not None and not data.empty:
+        # Convert timestamp to datetime if needed
+        if 'timestamp' in data.columns and not pd.api.types.is_datetime64_any_dtype(data['timestamp']):
+            data['timestamp'] = pd.to_datetime(data['timestamp'])
+        
+        # Add profit column
+        if 'price' in data.columns and 'cost' in data.columns:
+            data['profit'] = data['price'] - data['cost']
+
+        # Sales Trend Over Time
+        sales_trend = data.groupby(data['timestamp'].dt.date).sum()['price']
+        fig, ax = plt.subplots()
+        ax.plot(sales_trend.index, sales_trend.values, marker='o', linestyle='-')
+        ax.set_title("Sales Trend Over Time")
+        ax.set_xlabel("Date")
+        ax.set_ylabel("Revenue")
+        ax.grid()
+        st.pyplot(fig)
+
+        # Top Coffee Types
+        if 'coffee_type' in data.columns and 'quantity' in data.columns:
+            top_coffee = data.groupby('coffee_type').sum()['quantity'].sort_values(ascending=False).head(10)
+            fig, ax = plt.subplots()
+            top_coffee.plot(kind='bar', ax=ax)
+            ax.set_title("Top Coffee Types")
+            ax.set_xlabel("Coffee Type")
+            ax.set_ylabel("Quantity Sold")
+            st.pyplot(fig)
+
+        # Profit Analysis
+        if 'profit' in data.columns:
+            profit_trend = data.groupby(data['timestamp'].dt.date).sum()['profit']
+            fig, ax = plt.subplots()
+            ax.bar(profit_trend.index, profit_trend.values)
+            ax.set_title("Daily Profit Analysis")
+            ax.set_xlabel("Date")
+            ax.set_ylabel("Profit")
+            st.pyplot(fig)
+
+    else:
+        st.info("Sales data is not available or empty.")
 
 
 def admin_dashboard():
