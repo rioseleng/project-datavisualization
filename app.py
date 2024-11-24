@@ -191,84 +191,89 @@ def customer_dashboard():
 # Analytics Dashboard
 def analytics_dashboard():
     st.title("Analytics Dashboard")
-    
-    # Real-time orders
+
+    # 1. Real-Time Orders
     st.subheader("Current Orders")
     orders = get_current_orders()
     if orders:
         st.table(orders)
     else:
         st.info("No current orders available.")
-    
-    # Inventory health check
+
+    # 2. Inventory Health Check
     st.subheader("Inventory Health Check")
     inventory_health = get_inventory_health()
-    
+
     if inventory_health:
+        # Extract items, stocks, and thresholds
         items = [item[0] for item in inventory_health]
         stocks = [item[1] for item in inventory_health]
         thresholds = [item[2] for item in inventory_health]
 
-        # Create a bar chart for inventory health
+        # Create inventory bar chart
         fig, ax = plt.subplots()
-        bars = ax.bar(items, stocks, color=["red" if stock <= threshold else "blue" for stock, threshold in zip(stocks, thresholds)])
-        ax.axhline(y=20, color='orange', linestyle='--', label="Low Stock Threshold")  # Example threshold line
+        colors = ["red" if stock <= threshold else "blue" for stock, threshold in zip(stocks, thresholds)]
+        bars = ax.bar(items, stocks, color=colors)
+        ax.axhline(y=20, color='orange', linestyle='--', label="Low Stock Threshold")
         ax.set_ylabel("Stock Level")
         ax.set_title("Inventory Health Check")
         ax.legend()
         st.pyplot(fig)
 
-        # Display inventory details below the chart
+        # Inventory status details
         for item, stock, threshold in inventory_health:
             status = "Low Stock" if stock <= threshold else "Healthy"
             st.write(f"{item}: {stock} units in stock ({status})")
     else:
         st.info("All inventory levels are healthy.")
 
-    # Load sales data
+    # 3. Sales Analysis
     st.subheader("Sales Analysis")
-    data = get_sales_data()  # Assuming this function retrieves your sales data
-    if data is not None and not data.empty:
-        # Convert timestamp to datetime if needed
+    try:
+        # Retrieve sales data
+        data = get_sales_data()
+        if data is None or data.empty:
+            st.warning("Sales data is not available or empty.")
+            return
+
+        # Ensure proper data types for timestamp
         if 'timestamp' in data.columns and not pd.api.types.is_datetime64_any_dtype(data['timestamp']):
             data['timestamp'] = pd.to_datetime(data['timestamp'])
-        
-        # Add profit column
-        if 'price' in data.columns and 'cost' in data.columns:
-            data['profit'] = data['price'] - data['cost']
 
         # Sales Trend Over Time
-        sales_trend = data.groupby(data['timestamp'].dt.date).sum()['price']
-        fig, ax = plt.subplots()
-        ax.plot(sales_trend.index, sales_trend.values, marker='o', linestyle='-')
-        ax.set_title("Sales Trend Over Time")
-        ax.set_xlabel("Date")
-        ax.set_ylabel("Revenue")
-        ax.grid()
-        st.pyplot(fig)
+        if 'timestamp' in data.columns and 'price' in data.columns:
+            sales_trend = data.groupby(data['timestamp'].dt.date).sum()['price']
+            fig, ax = plt.subplots()
+            ax.plot(sales_trend.index, sales_trend.values, marker='o', linestyle='-')
+            ax.set_title("Sales Trend Over Time")
+            ax.set_xlabel("Date")
+            ax.set_ylabel("Revenue")
+            ax.grid()
+            st.pyplot(fig)
 
         # Top Coffee Types
-        if 'coffee_type' in data.columns and 'quantity' in data.columns:
-            top_coffee = data.groupby('coffee_type').sum()['quantity'].sort_values(ascending=False).head(10)
+        if 'coffee_type' in data.columns and 'revenue' in data.columns:
+            top_coffee = data.groupby('coffee_type').sum()['revenue'].sort_values(ascending=False).head(10)
             fig, ax = plt.subplots()
-            top_coffee.plot(kind='bar', ax=ax)
-            ax.set_title("Top Coffee Types")
+            top_coffee.plot(kind='bar', ax=ax, color='skyblue')
+            ax.set_title("Top Coffee Types by Revenue")
             ax.set_xlabel("Coffee Type")
-            ax.set_ylabel("Quantity Sold")
+            ax.set_ylabel("Revenue")
             st.pyplot(fig)
 
         # Profit Analysis
-        if 'profit' in data.columns:
+        if 'price' in data.columns and 'cost' in data.columns:
+            data['profit'] = data['price'] - data['cost']
             profit_trend = data.groupby(data['timestamp'].dt.date).sum()['profit']
             fig, ax = plt.subplots()
-            ax.bar(profit_trend.index, profit_trend.values)
+            ax.bar(profit_trend.index, profit_trend.values, color='green')
             ax.set_title("Daily Profit Analysis")
             ax.set_xlabel("Date")
             ax.set_ylabel("Profit")
             st.pyplot(fig)
 
-    else:
-        st.info("Sales data is not available or empty.")
+    except Exception as e:
+        st.error(f"An error occurred while processing sales data: {str(e)}")
 
 
 def admin_dashboard():
