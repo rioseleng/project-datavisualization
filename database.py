@@ -1,6 +1,6 @@
 import sqlite3
 import bcrypt
-
+import pandas as pd
 
 def create_connection():
     """Establish a connection to the SQLite database."""
