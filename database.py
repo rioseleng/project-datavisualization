@@ -1,6 +1,6 @@
 import sqlite3
 import bcrypt
-import pandas as pd
+
 
 def create_connection():
     """Establish a connection to the SQLite database."""
@@ -82,34 +82,20 @@ def create_tables():
 
 def create_default_admin():
     """Create a default admin user."""
-    # Create a database connection
     conn = create_connection()
     if conn is None:
-        print("Failed to connect to the database.")
         return
+    cursor = conn.cursor()
 
-    # Prepare the default admin credentials
     username = "admin"
     password = "adminpassword"
-
-    # Hash the password
-    if isinstance(password, str):
-        password = password.encode('utf-8')  # Convert password to bytes if it's a string
-    hashed_password = bcrypt.hashpw(password, bcrypt.gensalt())  # Hash the password
-
-    # Insert the admin user into the database
-    try:
-        cursor = conn.cursor()
-        cursor.execute('''
-            INSERT OR IGNORE INTO users (username, password, is_admin)
-            VALUES (?, ?, 1)
-        ''', (username, hashed_password))
-        conn.commit()
-        print("Default admin created successfully.")
-    except Exception as e:
-        print(f"Error creating default admin: {e}")
-    finally:
-        conn.close()
+    hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
+    cursor.execute('''
+        INSERT OR IGNORE INTO users (username, password, is_admin)
+        VALUES (?, ?, 1)
+    ''', (username, hashed_password))
+    conn.commit()
+    conn.close()
 
 
 def initialize_inventory():
@@ -264,26 +250,15 @@ def get_order_history(username):
 
 
 def get_sales_data():
-    """Retrieve sales data for reporting and return as a DataFrame."""
-    conn = create_connection()  # Ensure this function creates a valid database connection
+    """Retrieve sales data for reporting."""
+    conn = create_connection()
     cursor = conn.cursor()
-
-    # Execute the SQL query
     cursor.execute('''
         SELECT coffee_type, SUM(price) as revenue
         FROM orders
         GROUP BY coffee_type
     ''')
-
-    # Fetch all rows from the query result
     sales_data = cursor.fetchall()
-
-    # Define column names for the resulting DataFrame
-    column_names = ['coffee_type', 'revenue']
-
-    # Convert list of tuples to DataFrame
-    sales_data = pd.DataFrame(sales_data, columns=column_names)
-
     conn.close()
     return sales_data
 
@@ -372,4 +347,3 @@ def get_inventory_health():
     inventory_health = cursor.fetchall()
     conn.close()
     return inventory_health
-# END ADDITIONS
