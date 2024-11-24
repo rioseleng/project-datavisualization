@@ -140,7 +140,7 @@ def customer_dashboard():
             st.info(f"Discount Applied: ${discount_amount:.2f}")
 
         # Display final price
-        st.write(f"**Total Price: ${total_price:.2f}**")
+        st.write(f"*Total Price: ${total_price:.2f}*")
 
         # Place order button
         if st.button("Place Order"):
@@ -315,6 +315,40 @@ def main():
     else:
         login()
 
+import streamlit as st
+from database import add_coupon, validate_coupon, create_connection
+
+def manage_coupons():
+    """Admin interface to manage coupons."""
+    st.title("Manage Coupons")
+    
+    task = st.selectbox("Choose Task", ["Add Coupon", "View Coupons"])
+    
+    if task == "Add Coupon":
+        st.header("Add a New Coupon")
+        coupon_code = st.text_input("Coupon Code")
+        discount_percent = st.number_input("Discount Percentage", min_value=0, max_value=100, step=1)
+        valid_until = st.date_input("Valid Until")
+        
+        if st.button("Add Coupon"):
+            success = add_coupon(coupon_code, discount_percent, valid_until)
+            if success:
+                st.success("Coupon added successfully!")
+            else:
+                st.error("Failed to add coupon. Please check the inputs.")
+    
+    elif task == "View Coupons":
+        st.header("Existing Coupons")
+        conn = create_connection()
+        cursor = conn.cursor()
+        cursor.execute("SELECT * FROM coupons")
+        coupons = cursor.fetchall()
+        conn.close()
+        
+        if coupons:
+            st.table(coupons)
+        else:
+            st.info("No coupons available.")
 
 if __name__ == "__main__":
     main()
