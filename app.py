@@ -227,54 +227,6 @@ def analytics_dashboard():
     else:
         st.info("All inventory levels are healthy.")
 
-    # 3. Sales Analysis
-    st.subheader("Sales Analysis")
-    try:
-        # Retrieve sales data
-        data = get_sales_data()
-        if data is None or data.empty:
-            st.warning("Sales data is not available or empty.")
-            return
-
-        # Ensure proper data types for timestamp
-        if 'timestamp' in data.columns and not pd.api.types.is_datetime64_any_dtype(data['timestamp']):
-            data['timestamp'] = pd.to_datetime(data['timestamp'])
-
-        # Sales Trend Over Time
-        if 'timestamp' in data.columns and 'price' in data.columns:
-            sales_trend = data.groupby(data['timestamp'].dt.date).sum()['price']
-            fig, ax = plt.subplots()
-            ax.plot(sales_trend.index, sales_trend.values, marker='o', linestyle='-')
-            ax.set_title("Sales Trend Over Time")
-            ax.set_xlabel("Date")
-            ax.set_ylabel("Revenue")
-            ax.grid()
-            st.pyplot(fig)
-
-        # Top Coffee Types
-        if 'coffee_type' in data.columns and 'revenue' in data.columns:
-            top_coffee = data.groupby('coffee_type').sum()['revenue'].sort_values(ascending=False).head(10)
-            fig, ax = plt.subplots()
-            top_coffee.plot(kind='bar', ax=ax, color='skyblue')
-            ax.set_title("Top Coffee Types by Revenue")
-            ax.set_xlabel("Coffee Type")
-            ax.set_ylabel("Revenue")
-            st.pyplot(fig)
-
-        # Profit Analysis
-        if 'price' in data.columns and 'cost' in data.columns:
-            data['profit'] = data['price'] - data['cost']
-            profit_trend = data.groupby(data['timestamp'].dt.date).sum()['profit']
-            fig, ax = plt.subplots()
-            ax.bar(profit_trend.index, profit_trend.values, color='green')
-            ax.set_title("Daily Profit Analysis")
-            ax.set_xlabel("Date")
-            ax.set_ylabel("Profit")
-            st.pyplot(fig)
-
-    except Exception as e:
-        st.error(f"An error occurred while processing sales data: {str(e)}")
-
 
 def admin_dashboard():
     """Admin dashboard for managing inventory, sales, and feedback."""
