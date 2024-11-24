@@ -264,17 +264,28 @@ def get_order_history(username):
 
 
 def get_sales_data():
-    """Retrieve sales data for reporting."""
-    conn = create_connection()
+    """Retrieve sales data for reporting and return as a DataFrame."""
+    conn = create_connection()  # Ensure this function creates a valid database connection
     cursor = conn.cursor()
+
+    # Execute the SQL query
     cursor.execute('''
         SELECT coffee_type, SUM(price) as revenue
         FROM orders
         GROUP BY coffee_type
     ''')
+
+    # Fetch all rows from the query result
     sales_data = cursor.fetchall()
+
+    # Define column names for the resulting DataFrame
+    column_names = ['coffee_type', 'revenue']
+
+    # Convert list of tuples to DataFrame
+    sales_df = pd.DataFrame(sales_data, columns=column_names)
+
     conn.close()
-    return sales_data
+    return sales_df
 
 
 # START ADDITIONS FOR COUPONS AND ANALYTICS
