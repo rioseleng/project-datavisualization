@@ -1,5 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
 from database import (
     add_order,
     generate_booking_number,
