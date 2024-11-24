@@ -282,10 +282,10 @@ def get_sales_data():
     column_names = ['coffee_type', 'revenue']
 
     # Convert list of tuples to DataFrame
-    df = pd.DataFrame(sales_data, columns=column_names)
+    sales_data = pd.DataFrame(sales_data, columns=column_names)
 
     conn.close()
-    return df
+    return sales_data
 
 
 # START ADDITIONS FOR COUPONS AND ANALYTICS
